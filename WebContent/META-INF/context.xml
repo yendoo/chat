@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<Context path="/Chat" docBase="Chat" 
+    crossContext="true" reloadable="true" debug="1"> 
+ <Resource driverClassName="com.mysql.cj.jdbc.Driver" 
+      maxActive="100" maxIdle="30" maxWait="10000" 
+      name="jdbc/codetree2" 
+      type="javax.sql.DataSource" 
+      url="jdbc:mysql://umj7-008.cafe24.com:3306/codetree2?serverTimezone=UTC" username="codetree2" password="xhwhrdka@1" /> 
+          
+        </Context>
+ 
+
+ 
+
